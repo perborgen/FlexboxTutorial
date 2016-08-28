@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Flex</title>
+<style type="text/css">
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding:10px;
+	background-color: blue;
+	min-height: 200px;
+}
+
+.item1 {
+	margin: 10px 10px;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	align-self: flex-start;
+}
+
+.item2 {
+	margin: 10px 10px;
+	flex-basis: 100px;
+	height: 100px;
+
+	background-color: red;
+}
+
+.item3 {
+	margin: 10px 10px;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="item1"></div>
+	<div class="item2"></div>
+	<div class="item3"></div>
+
+</div>
+</body>
+</html>
